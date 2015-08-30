@@ -11,4 +11,5 @@ Desc:	An app server that provides these functions:
 Aspects:
 -	The app server used is a node express server.
 -	Backed by a mysql database, stores data in the nfctag table.
--	Open source on GIT, MIT licensed.
+-	Open source on GitHub (clone: https://github.com/mindlapse/nfcmap-microsvc.git)
+-	MIT licensed.
