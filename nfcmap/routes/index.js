@@ -10,6 +10,59 @@ var pool = mysql.createPool({
   password        : 'mushketera'
 });
 
+function sendError(c, res, errorObj) {
+  if (c) c.release();
+  console.log("Error received :");
+  console.dir(errorObj);
+  res.status(500).send(errorObj);
+}
+
+function renderPage(c, res, page, binds) {
+  if (c) c.release();
+  res.render(page, binds);
+}
+
+function respond(c, res, json) {
+  if (c) c.release();
+  res.send(json);
+}
+
+/**
+ * Sets the redirectURL for a tag, given the tagId and redirectURL to set.
+ *
+ * POST body example:
+ * {
+ *   tagId : "JnU9MmKa",
+ *   redirectURL : "http://..."
+ * }
+ */
+router.post('/api/savetag', function(req, res) {
+
+  var params = req.body;
+
+  pool.getConnection(function(err, c) {
+    if (!err) {
+      try {
+        c.query("update nfcTag set redirectURL = ? where tagId = ?",
+            [params.redirectURL, params.tagId],
+            function(err, results) {
+              if (err) return sendError(c, res, err);
+              return respond(c, res, { ok : true });
+            });
+      } catch (e) {
+        return sendError(c, res, e);
+      }
+    }
+  });
+});
+
+/**
+ * A page where the tags can be edited.
+ */
+router.get('/user/tagEditor', function(req, res, next) {
+  // TODO
+});
+
 /* GET home page. */
 router.get('/newtag', function(req, res, next) {
 
@@ -22,17 +75,14 @@ router.get('/newtag', function(req, res, next) {
             if (err) throw err;
             var response = results[0];
             response.host = req.headers.host;
-            c.release();
-            res.render('newtag', response);
+            return renderPage(c, res, 'newtag', response);
           });
         });
       } catch (e) {
-        c.release();
-        console.dir(e);
-        res.status(500).send(e);
+        return sendError(c, res, e);
       }
     } else {
-      console.dir(err);
+      return sendError(null, res, e);
     }
   });
 });
