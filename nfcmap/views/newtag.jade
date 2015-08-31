@@ -1,0 +1,29 @@
+extends layout
+block content
+
+    style.
+        .url { width:50em; display:block; }
+
+    h1 tag id
+    textarea.url http://#{host}/#{tagId}
+    button.copy Copy
+    .msg
+
+    script.
+        var copyButton = document.querySelector('.copy');
+        copyButton.addEventListener('click', function (event) {
+            var url = document.querySelector('.url');
+            url.select();
+            var successful = false;
+            try {
+                successful = document.execCommand('copy');
+                if (successful) {
+                    console.log('Copied to clipboard!');
+                }
+            } catch (err) {
+                console.log(err);
+            }
+            if (!successful) {
+                console.log('Oops, unable to copy');
+            }
+        });
