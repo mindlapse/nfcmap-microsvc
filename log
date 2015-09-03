@@ -1,27 +1,72 @@
-[0mGET /newtag [32m200 [0m356.055 ms - 837[0m
-[0mGET /stylesheets/style.css [36m304 [0m1.674 ms - -[0m
-[0mGET /newtag [32m200 [0m27.698 ms - 837[0m
-[0mGET /stylesheets/style.css [36m304 [0m0.550 ms - -[0m
-[0mGET /newtag [32m200 [0m17.512 ms - 837[0m
-[0mGET /stylesheets/style.css [36m304 [0m0.504 ms - -[0m
-[0mGET /newtag [32m200 [0m18.482 ms - 837[0m
-[0mGET /stylesheets/style.css [36m304 [0m0.346 ms - -[0m
-[0mGET /newtag [32m200 [0m59.430 ms - 837[0m
-[0mGET /stylesheets/style.css [36m304 [0m0.371 ms - -[0m
-[0mGET /newtag [32m200 [0m43.635 ms - 837[0m
-[0mGET /stylesheets/style.css [36m304 [0m0.365 ms - -[0m
-[0mGET /newtag [32m200 [0m15.436 ms - 837[0m
-[0mGET /stylesheets/style.css [36m304 [0m0.434 ms - -[0m
-[0mGET /newtag [32m200 [0m14.104 ms - 837[0m
-[0mGET /stylesheets/style.css [36m304 [0m0.243 ms - -[0m
-[0mGET /newtag [32m200 [0m19.266 ms - 837[0m
-[0mGET /stylesheets/style.css [36m304 [0m0.355 ms - -[0m
-[0mGET /newtag [32m200 [0m12.793 ms - 837[0m
-[0mGET /stylesheets/style.css [32m200 [0m1.914 ms - 111[0m
-[0mGET /favicon.ico [33m404 [0m9.711 ms - 1224[0m
-[0mGET /newtag [32m200 [0m11.846 ms - 837[0m
-[0mGET /stylesheets/style.css [36m304 [0m0.322 ms - -[0m
-[0mGET /M2ExMjhhMTg2MDExZmNhMTllNTY4MzJmNDIxZGQ2MmI= [33m404 [0m7.515 ms - 1224[0m
-[0mGET /stylesheets/style.css [36m304 [0m0.231 ms - -[0m
-[0mGET /newtag [32m200 [0m11.574 ms - 837[0m
-[0mGET /stylesheets/style.css [36m304 [0m0.608 ms - -[0m
+Connection obtained
+Connection released
+[ { tagId: 'MDBjOGZh',
+    redirectURL: 'http://52.88.50.116:7007/?tagId=MDBjOGZh' },
+  { tagId: 'MzJlYzJi',
+    redirectURL: 'http://52.88.50.116:7007/?tagId=MzJlYzJi' },
+  { tagId: 'MzQ2ZDY5',
+    redirectURL: 'http://52.88.50.116:7007/?tagId=MzQ2ZDY5' },
+  { tagId: 'NDM3N2Yy',
+    redirectURL: 'http://52.88.50.116:7007/?tagId=NDM3N2Yy' },
+  { tagId: 'NTgwYTll',
+    redirectURL: 'http://52.88.50.116:7007/?tagId=NTgwYTll' },
+  { tagId: 'ODgzMmVj',
+    redirectURL: 'http://52.88.50.116:7007/?tagId=ODgzMmVj' },
+  { tagId: 'OTUxMTRk',
+    redirectURL: 'http://52.88.50.116:7007/?tagId=OTUxMTRk' },
+  { tagId: 'Y2VkNzBh',
+    redirectURL: 'http://52.88.50.116:7007/?tagId=Y2VkNzBh' },
+  { tagId: 'YzBmZWI2',
+    redirectURL: 'http://52.88.50.116:7007/?tagId=YzBmZWI2' },
+  { tagId: 'ZDJmZTIy',
+    redirectURL: 'http://52.88.50.116:7007/?tagId=ZDJmZTIy' },
+  { tagId: 'ZGE3YjRi',
+    redirectURL: 'http://52.88.50.116:7007/?tagId=ZGE3YjRi' },
+  { tagId: 'ZGM1MDA3',
+    redirectURL: 'http://52.88.50.116:7007/?tagId=ZGM1MDA3' } ]
+[0mGET /admin [32m200 [0m369.468 ms - 1235[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.936 ms - -[0m
+Connection obtained
+Connection released
+[ { tagId: 'MDBjOGZh', redirectURL: 'asdf?tagId=MDBjOGZh' },
+  { tagId: 'MzJlYzJi', redirectURL: 'asdf?tagId=MzJlYzJi' },
+  { tagId: 'MzQ2ZDY5', redirectURL: 'asdf?tagId=MzQ2ZDY5' },
+  { tagId: 'NDM3N2Yy', redirectURL: 'asdf?tagId=NDM3N2Yy' },
+  { tagId: 'NTgwYTll', redirectURL: 'asdf?tagId=NTgwYTll' },
+  { tagId: 'ODgzMmVj', redirectURL: 'asdf?tagId=ODgzMmVj' },
+  { tagId: 'OTUxMTRk', redirectURL: 'asdf?tagId=OTUxMTRk' },
+  { tagId: 'Y2VkNzBh', redirectURL: 'asdf?tagId=Y2VkNzBh' },
+  { tagId: 'YzBmZWI2', redirectURL: 'asdf?tagId=YzBmZWI2' },
+  { tagId: 'ZDJmZTIy', redirectURL: 'asdf?tagId=ZDJmZTIy' },
+  { tagId: 'ZGE3YjRi', redirectURL: 'asdf?tagId=ZGE3YjRi' },
+  { tagId: 'ZGM1MDA3', redirectURL: 'asdf?tagId=ZGM1MDA3' } ]
+[0mPOST /setRedirect [32m200 [0m45.976 ms - 990[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.903 ms - -[0m
+Connection obtained
+Connection released
+[ { tagId: 'MDBjOGZh',
+    redirectURL: 'http://52.88.50.116:7000/?tagId=MDBjOGZh' },
+  { tagId: 'MzJlYzJi',
+    redirectURL: 'http://52.88.50.116:7000/?tagId=MzJlYzJi' },
+  { tagId: 'MzQ2ZDY5',
+    redirectURL: 'http://52.88.50.116:7000/?tagId=MzQ2ZDY5' },
+  { tagId: 'NDM3N2Yy',
+    redirectURL: 'http://52.88.50.116:7000/?tagId=NDM3N2Yy' },
+  { tagId: 'NTgwYTll',
+    redirectURL: 'http://52.88.50.116:7000/?tagId=NTgwYTll' },
+  { tagId: 'ODgzMmVj',
+    redirectURL: 'http://52.88.50.116:7000/?tagId=ODgzMmVj' },
+  { tagId: 'OTUxMTRk',
+    redirectURL: 'http://52.88.50.116:7000/?tagId=OTUxMTRk' },
+  { tagId: 'Y2VkNzBh',
+    redirectURL: 'http://52.88.50.116:7000/?tagId=Y2VkNzBh' },
+  { tagId: 'YzBmZWI2',
+    redirectURL: 'http://52.88.50.116:7000/?tagId=YzBmZWI2' },
+  { tagId: 'ZDJmZTIy',
+    redirectURL: 'http://52.88.50.116:7000/?tagId=ZDJmZTIy' },
+  { tagId: 'ZGE3YjRi',
+    redirectURL: 'http://52.88.50.116:7000/?tagId=ZGE3YjRi' },
+  { tagId: 'ZGM1MDA3',
+    redirectURL: 'http://52.88.50.116:7000/?tagId=ZGM1MDA3' } ]
+[0mPOST /setRedirect [32m200 [0m23.548 ms - 1242[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.670 ms - -[0m

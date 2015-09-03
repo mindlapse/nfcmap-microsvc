@@ -1,0 +1,14 @@
+extends layout
+block content
+    div #{status}
+    form(name='setRedirectForm' method='POST' action='/setRedirect')
+        label(for='redirectURL') Redirect URL
+        input(name='redirectURL' type='text' width='20')
+        input(type='submit')
+    table
+        - each row in tags
+            tr
+                td
+                    = row.tagId
+                td
+                    = row.redirectURL
